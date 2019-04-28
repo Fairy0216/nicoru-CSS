@@ -1,31 +1,15 @@
 /* ==UserStyle==
-@name			Mastodonカラム内ユーザーTOPを圧縮
-@description	カラム表示時のユーザーページの上部を色々と圧縮表示
-@namespace		https://github.com/Phroneris
-@version		1.1.3
-@author			森の子リスのミーコの大冒険（Phroneris）
-@homepageURL	https://github.com/Phroneris/Stylus
-@supportURL		https://github.com/Phroneris/Stylus/issues
-@updateURL		https://github.com/Phroneris/Stylus/raw/master/usercss/mastodon_compress-usertop.user.css
-@license		CC0-1.0
-@preprocessor	stylus
-@var			checkbox smallenProfile "圧縮表示：プロフィール" 1
-@var			checkbox smallenHosoku "圧縮表示：補足欄" 1
-@var			checkbox smallenFF "圧縮表示：投稿数・FF数の欄" 1
-@var			checkbox smallenTab "圧縮表示：TL切り替え部" 1
-@var			checkbox smallenPinned "固定トゥートを畳む" 1
-@var			select openStylePinned "┗ 再展開方法" {
-	"クリックや選択": "focus",
-	"マウスオーバー": "hover"
-}
+@name           ニコるくん仮復活
+@description    ★をニコるくんに変更するだけのCSS
+@namespace      https://github.com/Fairy0216
+@version        1.0
+@homepageURL    https://github.com/Fairy0216/nicoru-CSS
+@updateURL      https://raw.githubusercontent.com/Fairy0216/nicoru-CSS/master/nicoru_fav.user.css
+@author         https://best-friends.chat/@4_0s
+@supportURL     https://best-friends.chat/@4_0s
+@license        CC0-1.0
+@preprocessor   stylus
 ==/UserStyle== */
-
-/* ==ChangeLog==
-	2019/02/22 v1.1.3
-	* このChangeLogを追加
-	* 対応インスタンスを追加（自分のために）
-	* リポジトリ整理に伴い@updateURLを修正
-*/
 
 @-moz-document domain("best-friends.chat") {
 .fa-star::before {
